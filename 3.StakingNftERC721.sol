@@ -29,6 +29,6 @@ contract NFTStaking {
     }
 
     function claimReward(uint256 _amount) external {
-        rewardToken.transfer(msg.sender, _amount); // بدون حساب زمان یا سود واقعی!
+        rewardToken.transfer(msg.sender, _amount); 
     }
 }
